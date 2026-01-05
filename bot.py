@@ -18,12 +18,12 @@ Files sequence bot started ✨ Credit:- @RexBots_Official
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="Bot",
-            api_id=20400959,
+            name="Bot"
             api_hash="66c2f4b133d6422efee892228608573b",
-            bot_token="8508740736:AAFDtMu1FpBYql9BddEBifkbkkFUEHKcYHA",
+            api_id=20400959,
             plugins={"root": "Plugins"},
             workers=1
+            bot_token="8508740736:AAFDtMu1FpBYql9BddEBifkbkkFUEHKcYHA",
         )
 
 if __name__ == "__main__":
