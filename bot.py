@@ -60,7 +60,7 @@ class Bot(Client):
         # Notify bot restart
         try:
             await self.send_photo(
-                chat_id=DATABASE_CHANNEL,
+                chat_id="-1003614024877",
                 photo="https://ibb.co/DH3N4Lyr",
                 caption="**I ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ !**",
                 reply_markup=InlineKeyboardMarkup(
