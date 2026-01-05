@@ -19,15 +19,12 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash="66c2f4b133d6422efee892228608573b",
+            api_hash=66c2f4b133d6422efee892228608573b,
             api_id=20400959,
             plugins={"root": "Plugins"},
             workers=1,
-            bot_token="8508740736:AAFDtMu1FpBYql9BddEBifkbkkFUEHKcYHA",
+            bot_token=8508740736:AAFDtMu1FpBYql9BddEBifkbkkFUEHKcYHA,
         )
-
-if __name__ == "__main__":
-    Bot().run()
    
     async def start(self, *args, **kwargs):
         await super().start()
@@ -63,7 +60,7 @@ if __name__ == "__main__":
         # Notify bot restart
         try:
             await self.send_photo(
-                chat_id=-1003614024877,
+                chat_id=DATABASE_CHANNEL,
                 photo="https://ibb.co/DH3N4Lyr",
                 caption="**I ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ !**",
                 reply_markup=InlineKeyboardMarkup(
