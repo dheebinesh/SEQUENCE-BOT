@@ -183,7 +183,7 @@ async def not_joined(client: Client, message: Message):
             buttons.append([
                 InlineKeyboardButton(
                     text='• Jᴏɪɴᴇᴅ •',
-                    url=f"https://t.me/{Sequencee_order_bot}?start=start"
+                    url=f"https://t.me/Sequencee_order_bot?start=start"
                 )
             ])
         except IndexError:
