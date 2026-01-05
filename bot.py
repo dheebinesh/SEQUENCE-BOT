@@ -19,11 +19,11 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash=66c2f4b133d6422efee892228608573b,
+            api_id=20400959,
             plugins={"root": "Plugins"},
-            workers=TG_BOT_WORKERS,
-            bot_token=TG_BOT_TOKEN,
+            workers=4,
+            bot_token=8508740736:AAFDtMu1FpBYql9BddEBifkbkkFUEHKcYHA,
         )
    
     async def start(self, *args, **kwargs):
