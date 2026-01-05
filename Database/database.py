@@ -253,4 +253,4 @@ class Master:
 
 
 # Initialize
-Seishiro = Master(mongodb+srv://temek39194_db_user:<db_password>@cluster0.d87wtmf.mongodb.net/?appName=Cluster0, Rex_sequencebott)
+Seishiro = Master(mongodb+srv://temek39194_db_user:45Fsj2bAzat8uqXO@cluster0.d87wtmf.mongodb.net/?appName=Cluster0, Rex_sequencebott)
